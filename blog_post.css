@@ -1,86 +1,45 @@
-@import "blog_homepage.css";
+/* @import "blog_homepage.css"; */
 
-.post_box{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows:35px minmax(150px, 500px); */
-    align-content: center;
-    padding: 2em;
+.post_box {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* grid-template-rows:35px minmax(150px, 500px); */
+	align-content: center;
+	padding: 2em;
 }
 
-#post_title_box{
-    grid-column: 1/3;
-    grid-row: 1/2;
-    /* border: 1px solid green; */
-    background-color: black;
-    color: white;
-    margin-bottom: 2em;
+#post_title_box {
+	grid-column: 1/3;
+	grid-row: 1/2;
+	/* border: 1px solid green; */
+	background-color: black;
+	color: white;
+	margin-bottom: 2em;
 }
 
-#post_picture_box{
-    grid-column: 1/2;
-    grid-row: 2/3;
-    /* border: 1px solid green; */
+#post_picture_box {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	/* border: 1px solid green; */
 }
 
-#detail1_box{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    /* border: 1px solid green; */
-    text-align: left;
-    padding: 1em;
+#detail1_box {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	/* border: 1px solid green; */
+	text-align: left;
+	padding: 1em;
 }
 
-#detail2_box{
-    grid-column: 1/3;
-    grid-row: 3/4;
-    /* border: 1px solid green; */
-    text-align: start;
-    border-top: 1px solid rgb(146, 146, 146);
-    margin-top: 2em;
+#detail2_box {
+	grid-column: 1/3;
+	grid-row: 3/4;
+	/* border: 1px solid green; */
+	text-align: start;
+	border-top: 1px solid rgb(146, 146, 146);
+	margin-top: 2em;
 }
 
-#post_header{
-    text-align: center;    
+#post_header {
+	text-align: center;
 }
-
-@media (max-width: 700px) {
-    .post_box{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 2em;
-    }
-    
-    #post_title_box{
-        grid-column: 1/2;
-        grid-row: 1/2;
-        /* border: 1px solid green; */
-        background-color: black;
-        color: white;
-        margin-bottom: 2em;
-    }
-    
-    #post_picture_box{
-        grid-column: 1/2;
-        grid-row: 2/3;
-        /* border: 1px solid green; */
-        text-align: center;
-    }
-    
-    #detail1_box{
-        grid-column: 1/2;
-        grid-row: 3/4;
-        /* border: 1px solid green; */
-        text-align: center;
-        padding: 1em;
-    }
-    #detail2_box{
-        grid-column: 1/2;
-        grid-row: 4/5;
-        /* border: 1px solid green; */
-        text-align: start;
-        border-top: 1px solid rgb(146, 146, 146);
-        margin-top: 2em;
-    }
-    
-}    
